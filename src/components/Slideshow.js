@@ -9,12 +9,12 @@ export const Slideshow = withRouter(({ children, location, match, history }) => 
   const [socketOpen, setSocketOpen] = useState(false)
   const [follow, setFollow] = useState(true)
   const [room, setRoom] = useState('mtiid')
-  const Slides = Array.isArray(children)
-    ? children.filter(({ type }) => type && type.name == 'Slide')
-    : children.type && children.type == 'Slide'
-    ? [children]
-    : []
+  if (children.filter(child => child.type.name !== 'Slide').length && process.env.NODE_ENV !== 'production') {
+    throw 'Only slides can be direct descendants of slideshow'
+  }
+  const Slides = Array.isArray(children) ? children : [children]
   const slideCount = Slides.length
+
   const master = window.location.search.includes('master')
 
   useEffect(() => {
