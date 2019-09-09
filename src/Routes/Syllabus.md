@@ -130,7 +130,7 @@ Not all techniques will be relevant to all projects, try to use at least 2 of th
   - Installing and using a text editor
   - File Structure
     - unix path syntax
-  - The stuff codepen hides
+  - The stuff glitch hides
     - `head` and `body` tags
     - `style` tag
   - Installing Node.js
