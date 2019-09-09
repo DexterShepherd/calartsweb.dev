@@ -68,7 +68,7 @@ export const Slideshow = withRouter(({ children, location, match, history }) => 
   }, [index, socketOpen])
 
   useEffect(() => {
-    history.push(match.path.replace(':index?', index) + location.search, { index })
+    history.replace(match.path.replace(':index?', index) + location.search, { index })
   }, [index])
 
   const transformStyle = {
