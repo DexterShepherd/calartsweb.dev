@@ -212,7 +212,7 @@ The final project, and the work weeks associated with it, will be graded in the 
 __Final grades will be based on the following breakdown__
 - Attendance: 3 absences will yield an NX grade for the course.
 - Assignments: 70%
-- Final Project: 40% - Failure to submit a final project will yield an NC grade for the course.
+- Final Project: 30% - Failure to submit a final project will yield an NC grade for the course.
 
 #### Units
 - Undergraduate students should be committing a total of 6 hours per week, including lectures.
