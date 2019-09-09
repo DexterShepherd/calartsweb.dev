@@ -1,5 +1,6 @@
 import React from 'react'
 import { Slideshow, Slide } from '../components/Slideshow'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import * as img from '../assets/week-1'
 
@@ -30,16 +31,20 @@ const Week1 = () => (
       <Title>Course Resources</Title>
       <List>
         <Item>
-          <Text>Syllabus</Text>
+          <Text>
+            <Link to="/syllabus">Syllabus</Link>
+          </Text>
+          <Text>Overview of the course. Week to week schedule is subject to change.</Text>
         </Item>
         <Item>
-          <Text>Slides</Text>
+          <Text>
+            <Link to="/">Slides</Link>
+          </Text>
+          <Text>All course slides will be posted here before class.</Text>
         </Item>
         <Item>
           <Text>Learn</Text>
-        </Item>
-        <Item>
-          <Text>Github</Text>
+          <Text>Calarts online learning portal. All assignments are submitted through Learn.</Text>
         </Item>
       </List>
     </Slide>
