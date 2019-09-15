@@ -22,7 +22,13 @@ const Home = () => {
           <li>
             <SlideLink to="/week1">Week 1</SlideLink>
             <SlideDesc>
-              <em>Introduction</em>
+              <em>Welcome to the course!</em>
+            </SlideDesc>
+          </li>
+          <li>
+            <SlideLink to="/week2">Week 2</SlideLink>
+            <SlideDesc>
+              <em>Intro to HTML!</em>
             </SlideDesc>
           </li>
         </Slides>
@@ -54,7 +60,11 @@ const SlideDesc = styled.p`
   padding: 0;
 `
 
-const Slides = styled.ul``
+const Slides = styled.ul`
+  li {
+    margin-bottom: 16px;
+  }
+`
 
 const Subtitle = styled.h3`
   margin-top: 0;
