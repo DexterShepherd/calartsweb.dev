@@ -29,6 +29,9 @@ const Home = () => {
             <SlideLink to="/week2">Week 2</SlideLink>
             <SlideDesc>
               <em>Intro to HTML!</em>
+              <p>
+                <a href="https://youtu.be/NeJQqitDn1k">Video Lecture</a>
+              </p>
             </SlideDesc>
           </li>
         </Slides>

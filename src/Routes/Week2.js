@@ -19,52 +19,75 @@ const Week2 = () => {
   return (
     <Slideshow>
       <Slide>
-        <Title>Welcome</Title>
-        <Subtitle>Media and Web Development</Subtitle>
-        <Text>
-          <em>Week 2 - Introduction to HTML</em>
-        </Text>
+        <VertCenter>
+          <Title>Welcome</Title>
+          <Subtitle>Media and Web Development</Subtitle>
+          <Text>
+            <em>Week 2 - Introduction to HTML</em>
+          </Text>
+        </VertCenter>
       </Slide>
       <Slide>
-        <Title>Agenda</Title>
-        <List>
-          <Item>
-            <Text>What is HTML?</Text>
-          </Item>
-          <Item>
-            <Text>Elements and Tags</Text>
-          </Item>
-          <Item>
-            <Text>Typography</Text>
-          </Item>
-          <Item>
-            <Text>Layout</Text>
-          </Item>
-          <Item>
-            <Text>The Glitch Environment</Text>
-          </Item>
-        </List>
+        <VertCenter>
+          <Title>Agenda</Title>
+          <List>
+            <Item>
+              <Text>What is HTML?</Text>
+            </Item>
+            <Item>
+              <Text>The DOM</Text>
+            </Item>
+            <Item>
+              <Text>Elements and Tags</Text>
+            </Item>
+            <Item>
+              <Text>Typography</Text>
+            </Item>
+            <Item>
+              <Text>Layout</Text>
+            </Item>
+            <Item>
+              <Text>The Glitch Environment</Text>
+            </Item>
+          </List>
+        </VertCenter>
       </Slide>
       <Slide>
-        <Title>What is HTML?</Title>
+        <VertCenter>
+          <Title>What is HTML?</Title>
+        </VertCenter>
       </Slide>
       <Slide>
-        <Subtitle>
-          HTML <em>(Hyper-Text Markup Language)</em> is the content language of the web.
-        </Subtitle>
-        <Text>We use html to describe the content on a page.</Text>
-        <Text>Text, Images, Links, and Layout are all described using HTML.</Text>
+        <VertCenter>
+          <Subtitle>
+            HTML <em>(Hyper-Text Markup Language)</em> is the content language of the web.
+          </Subtitle>
+          <Text>We use html to describe the content on a page.</Text>
+          <Text>Text, Images, Links, and Layout are all described using HTML.</Text>
+        </VertCenter>
       </Slide>
       <Slide>
-        <Text>
-          Of the three languages we will learn this semester. HTML is the most important. You can strip away style or
-          interaction and still have a functioning website, but to remove the HTML is to remove the <em>content</em> of
-          the website.
-        </Text>
+        <VertCenter>
+          <ReadabilityBlock>
+            <Text>
+              Of the three languages we will learn this semester. HTML is the most important. You can strip away style
+              or interaction and still have a functioning website, but to remove the HTML is to remove the{' '}
+              <em>content</em> of the website.
+            </Text>
+          </ReadabilityBlock>
+        </VertCenter>
       </Slide>
       <Slide>
-        <Title>Elements!</Title>
-        <Subtitle>An element is the atomic unit of HTML</Subtitle>
+        <VertCenter>
+          <Title>The DOM</Title>
+          <Subtitle>Document Object Model</Subtitle>
+        </VertCenter>
+      </Slide>
+      <Slide>
+        <VertCenter>
+          <Title>Elements!</Title>
+          <Subtitle>An element is the atomic unit of HTML</Subtitle>
+        </VertCenter>
       </Slide>
       <Slide>
         <VertCenter>
@@ -125,7 +148,7 @@ const Week2 = () => {
             </Item>
             <Item>
               <Text>
-                Emphasis - Defines a section of <strong>emphasized</strong> text ( usually italic ).
+                Emphasis - Defines a section of <em>emphasized</em> text ( usually italic ).
               </Text>
             </Item>
             <Item>
@@ -393,6 +416,7 @@ const Week2 = () => {
           <Text>
             I find layout hard to understand in the abstract so lets take a break and go onto glitch for a demo.
           </Text>
+          <a href="https://glitch.com/~icom-101-starting-point">Fork this project to get started on glitch</a>
         </VertCenter>
       </Slide>
     </Slideshow>
