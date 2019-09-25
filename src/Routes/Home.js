@@ -38,6 +38,9 @@ const Home = () => {
             <ExternalSlideLink href="http://dexterjshepherd.com/ICOM-101/week-3/#/">Week 3</ExternalSlideLink>
             <SlideDesc>
               <em>Intro to CSS!</em>
+              <p>
+                <a href="https://www.loom.com/share/df454fb9028f41d397f453eb8b92b8b4">Video Lecture</a>
+              </p>
             </SlideDesc>
           </li>
         </Slides>
