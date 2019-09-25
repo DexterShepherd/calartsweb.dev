@@ -34,6 +34,12 @@ const Home = () => {
               </p>
             </SlideDesc>
           </li>
+          <li>
+            <ExternalSlideLink href="http://dexterjshepherd.com/ICOM-101/week-3/#/">Week 3</ExternalSlideLink>
+            <SlideDesc>
+              <em>Intro to CSS!</em>
+            </SlideDesc>
+          </li>
         </Slides>
       </Section>
     </Container>
@@ -54,6 +60,11 @@ const Section = styled.div`
 `
 
 const SlideLink = styled(Link)`
+  display: inline-block;
+  margin-bottom: 4px;
+`
+
+const ExternalSlideLink = styled.a`
   display: inline-block;
   margin-bottom: 4px;
 `
