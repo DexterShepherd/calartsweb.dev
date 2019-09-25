@@ -32,6 +32,9 @@ const Home = () => {
               <p>
                 <a href="https://youtu.be/NeJQqitDn1k">Video Lecture</a>
               </p>
+              <p>
+                <a href="https://loom.com/share/folder/99bbe8896bc54a3b8605dc1da8b5a506">feedback videos!</a>
+              </p>
             </SlideDesc>
           </li>
           <li>
