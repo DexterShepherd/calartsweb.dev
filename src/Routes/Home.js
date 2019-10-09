@@ -44,6 +44,23 @@ const Home = () => {
               <p>
                 <a href="https://www.loom.com/share/df454fb9028f41d397f453eb8b92b8b4">Video Lecture</a>
               </p>
+              <p>
+                <a href="https://loom.com/share/folder/46828e76393b4955816877df5f8172c7">feedback videos!</a>
+              </p>
+            </SlideDesc>
+          </li>
+          <li>
+            <SlideDesc>
+              <em>Floats, Display Type, and Position</em>
+              <p>
+                <a href="https://www.youtube.com/watch?v=4Y9Oo4p26Vs">Video Lecture</a>
+              </p>
+            </SlideDesc>
+          </li>
+          <li>
+            <ExternalSlideLink href="http://dexterjshepherd.com/ICOM-101/week-4/#/">Week 5</ExternalSlideLink>
+            <SlideDesc>
+              <em>FlexBox</em>
             </SlideDesc>
           </li>
         </Slides>
@@ -83,6 +100,8 @@ const SlideDesc = styled.p`
 const Slides = styled.ul`
   li {
     margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #a1a1a1;
   }
 `
 

@@ -1,7 +1,23 @@
-Review
+Agenda
 
+New Features in Glitch
+  - Autoformat
 
-- Indentation
-- Center/Align
-- Linter
+Position Property
+  - Fixed
+  - Absolute
+  - Relative
+CSS Box Model
+  - Single element changes
+  - Making complex layouts
+    - 2 col
+      - With float
 
+Fun stuff
+  - Background Image
+    - Background gif?
+  - Box Shadow
+  - Gradient
+
+Make some websites
+  - Apple
