@@ -63,7 +63,6 @@ const Home = () => {
               <em>FlexBox</em>
             </SlideDesc>
           </li>
-        </Slides>
           <li>
             <ExternalSlideLink href="http://dexterjshepherd.com/ICOM-101/week-5/#/">Week 6</ExternalSlideLink>
             <SlideDesc>
